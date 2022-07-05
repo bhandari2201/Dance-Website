@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title Art In Motion
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.jpg", alt="")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact]
+
+    section#firstsection 
+        div.large Welcome to the best Dance Academy in the town
+        div Dancing happens with full enthusiasm  
+
+    section#secondsection
+        h2 Different forms of dance 
+        div.card 
+            h3 Classical Dance
+            div.cardbox 
+                div.card-img
+                    img(src="/static/img/1.png", alt="Classical dance")
+                div.card-content 
+                    p Pure Form of classical dance Teaching    
+        div.card 
+            h3 Western Dance 
+            div.cardbox 
+                div.card-img
+                    img(src="/static/img/2.png", alt="Western Dance")
+                div.card-content 
+                    p All western Type Dance Teachers  
+        div.card 
+            h3 Party Dance
+            div.cardbox 
+                div.card-img
+                    img(src="/static/img/3.jpg", alt="Party Dance")
+                div.card-content 
+                    p Dance teachers for a functon or party   
+
+
+
+    section#sponsorsection 
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", class="spImage")
+    footer#footer
+        h3 Copyright © 2022 ArtinMotion.com | All rights reserved
+
+    script
+      include ../static/index.js

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Josefin+Sans:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #8096b4;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#logo{
+    display: flex;
+    
+    height: 60px;
+    width: 95px;
+    padding: 2px;
+    margin: 6px;
+} 
+#logo img{
+    filter: invert(1);
+}
+
+#navbar li {
+    list-style: none;
+    padding: 12px 4px;
+    margin: 6px;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Joan', serif;
+    font-size: 19px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+.large{
+    font-size: 40px;
+    color: rgba(228, 186, 158, 0.46);
+    padding: 4px;
+}
+
+#firstsection{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    font-size: 32px;
+    font-family: 'Joan', serif;
+    /* background-color: burlywood; */
+    background: center / cover no-repeat url("/static/bg.jpg");
+    padding-bottom: 29px;
+}
+
+#secondsection{
+    height: 300px;
+    background-color: rgb(229, 198, 220);
+    padding: 20px;
+} 
+
+#secondsection h2{
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Joan', serif;
+    font-size: 32px;
+
+}
+
+.card{
+    border: 3px solid black ;
+    border-radius: 7px;
+    width: 31%;
+    height: 200px;
+    display: inline-block;
+    padding: 8px;
+    margin: 14px 14px;
+    background-color: white;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 4px;
+}
+
+.cardbox{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.card-img{
+    height: 118px;
+    padding: 2px 10px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 12px;
+}
+
+.card-content p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sponsorsection{
+    text-align: center;
+    height: 300px;
+    background-color: rgb(172, 184, 189);
+    padding: 20px;
+}
+#sponsorsection h2{
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Joan', serif;
+    font-size: 32px;
+    margin: 4px 0;
+
+}
+
+.spImage{
+    /* z-index: -1; */
+    margin: 7px;
+    padding: 18px;
+    height: 188px;
+}
+#footer{
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#footer h3{
+    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
